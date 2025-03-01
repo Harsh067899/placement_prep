@@ -1,0 +1,31 @@
+name: placement_prep
+description: "A new Flutter project for placement preparation."
+
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Essential Dependencies
+  image_picker: ^1.0.4 # For selecting images
+  google_fonts: ^6.1.0  # Custom fonts
+  tflite_flutter: ^0.10.3 # TensorFlow Lite for AI tasks
+  provider: ^6.1.2 # State management
+  cupertino_icons: ^1.0.6 # iOS-style icons
+  fl_chart: ^0.63.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
